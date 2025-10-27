@@ -159,11 +159,12 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
             >
-              I enjoy coding and turning ideas into working products that solve
-              actual problems. Most of my work has been with Python and
-              JavaScript, using frameworks like React, Node.js, and Next.js.
-              I’ve also worked on NLP and AI-based projects, combining software
-              development with data-driven problem solving.
+              I love coding and bringing ideas to life. I also enjoy building
+              things that actually solve problems, whether it’s through clean
+              data insights or full-stack projects. I mostly work with Python
+              and JavaScript, using tools like React, Node.js, and Next.js.
+              Lately, I’ve also been exploring NLP and AI, where I get to mix
+              data-driven thinking with creative software development.
             </motion.p>
 
             <motion.div
