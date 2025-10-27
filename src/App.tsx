@@ -14,7 +14,6 @@ import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const queryClient = new QueryClient();
 
@@ -26,7 +25,6 @@ const App = () => (
         <Sonner />
         <BrowserRouter>
           <AnimatePresence mode="wait">
-            <SpeedInsights />
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/about" element={<About />} />
